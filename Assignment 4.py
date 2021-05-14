@@ -16,6 +16,6 @@ elif fiber <= 500:
 elif fiber > 500:
     cost = fiber * 0.50
 
-    #if-elif condition that gives a different price/feet depending on feet of fiber optic entered
+    #if-elif condition that gives  different price/feet depending on feet of fiber optic entered
 
 print("The total cost for ",company, "is $",cost)# prints message that displays the company name and total cost.
