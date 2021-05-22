@@ -18,12 +18,12 @@ def displayIntro():
 
 def chooseCave():
     cave = ''
-    while cave != '1' and cave != '2': #*
+    while cave != '1' and cave != '2': #* fixed indent
         print('Which cave will you go into? (1 or 2)') #*
         cave = input() #*fixed indentations for while condition
         return cave #incorrect variable name
 
-def checkCave(chooseCave): #* chosen cave does not exist in code, edited to "chooseCave"
+def checkCave(chooseCave): #* chosencave does not exist in code, edited to "chooseCave"
 	print('You approach the cave...')
 	#sleep for 2 seconds
 	time.sleep(2)
