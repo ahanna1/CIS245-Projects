@@ -35,7 +35,7 @@ def get_input():
     
     with open(filename,'w') as f:
         json.dump(user_input,f)
-        # writes inputted values into new files
+        # writes inputted values into new file
     
     with open (filename,'r') as f:
         print(f"Here is what your new file will contain: {user_input}")
